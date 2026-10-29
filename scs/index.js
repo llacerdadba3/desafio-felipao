@@ -27,7 +27,7 @@ rl.question("Digite o nome do herói: ", (nomeHeroi) => {
             nivel = "Ascendente";
         } else if (xp >= 9001 && xp <= 10000) {
             nivel = "Imortal";
-        } else {
+        } else { (xp >=10001)
             nivel = "Radiante";
         }
 
